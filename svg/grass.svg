@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="48px" height="48px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g>
+        <g id="grass">
+            <clipPath id="tag1">
+                <rect x="0" y="0" width="48" height="48.001"/>
+            </clipPath>
+            <g clip-path="url(#tag1)">
+                <path d="M66.3652,48.001L66.3102,47.986L66.2912,42.23L61.9952,42.254L60.8812,38.417L53.4292,36.89L46.4472,33.501L43.3752,36.234C43.3752,36.234 28.0102,39.071 27.5442,38.854C27.0772,38.635 20.6542,33.501 20.6542,33.501L10.0152,35.851L8.8992,35.632L3.5202,33.501L2.5882,36.12L-0.2988,35.465L-1.2298,38.085L-3.7438,36.339L-8.3068,37.429L-8.0918,42.651L-10.8588,42.667L-10.8648,48.001Z" style="fill:black;fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>
