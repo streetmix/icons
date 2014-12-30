@@ -4,10 +4,10 @@
     <g>
         <g id="elevation-lower">
             <g>
-                <rect x="0" y="40" width="48" height="8" style="fill:black;"/>
+                <rect x="0" y="42" width="48" height="6" style="fill:black;"/>
             </g>
             <g>
-                <path d="M36,20L24,34L12,20Z" style="fill:black;fill-rule:nonzero;"/>
+                <path d="M36,22L24,36L12,22L36,22Z" style="fill:black;fill-rule:nonzero;"/>
             </g>
         </g>
     </g>
