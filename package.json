@@ -1,7 +1,8 @@
 {
-  "name": "icon-builder",
+  "name": "streetmix-icons",
   "version": "0.2.0",
   "description": "SVG icon build process for Streetmix",
+  "public": false,
   "dependencies": {
     "gulp": "^3.8.10",
     "gulp-svg-sprite": "^1.2.5"
