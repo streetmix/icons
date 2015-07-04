@@ -15,4 +15,4 @@ All the current SVGs are exported from Affinity Designer.
 
 More info on SVG icons: http://css-tricks.com/svg-symbol-good-choice-icons/
 
-To generate a single icon file, install Gulp and the modules from this repository with `npm install`, and at the command line type `gulp` to automatically run the generator script. The generated `icons.svg` should then be copied to the Streetmix repository.
+To generate a single icon file, install Gulp and the modules from this repository with `npm install`, and at the command line type `gulp` to automatically run the generator script. The generated `icons.svg` is incorporated into Streetmix via a Node.js module.
