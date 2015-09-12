@@ -23,5 +23,5 @@ var svgConfig = {
 gulp.task('default', function () {
   return gulp.src('svg/*.svg')
     .pipe(svgSprite(svgConfig))
-    .pipe(gulp.dest('.'))
+    .pipe(gulp.dest('./dist'))
 })
