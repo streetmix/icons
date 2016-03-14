@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>svg preview</title>
+</head>
+<body>
+  <div id='svg'></div>
+  <div id='preview'></div>
+  <script>
+    'use strict'
+
+    fetch('dist/icons.svg')
+      .then(function (response) {
+        return response.text()
+      })
+      .then(function (response) {
+        var svgContainerEl = document.getElementById('svg')
+        var previewEl = document.getElementById('preview')
+
+        svgContainerEl.innerHTML = response
+
+        var svg = svgContainerEl.querySelectorAll('symbol')
+
+        for (var i = 0; i < svg.length; i++) {
+          var id = svg[i].id
+
+          var svgEl = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
+          svgEl.setAttributeNS('http://www.w3.org/2000/xmlns/', 'xmlns', 'http://www.w3.org/1999/svg')
+          svgEl.setAttributeNS('http://www.w3.org/2000/xmlns/', 'xmlns:xlink', 'http://www.w3.org/1999/xlink')
+
+          var useEl = document.createElementNS('http://www.w3.org/2000/svg', 'use')
+          useEl.setAttributeNS('http://www.w3.org/1999/xlink', 'href', '#' + id)
+
+          previewEl.appendChild(svgEl)
+          svgEl.appendChild(useEl)
+        }
+
+        return response
+      })
+      .catch (function (error) {
+        console.log('doh', error)
+      })
+
+  </script>
+</body>
+</html>

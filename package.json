@@ -16,7 +16,7 @@
     "npm": ">=2.14.2"
   },
   "devDependencies": {
-    "gulp": "^3.8.10",
-    "gulp-svg-sprite": "^1.2.5"
+    "gulp": "^3.9.1",
+    "gulp-svg-sprite": "^1.2.19"
   }
 }
