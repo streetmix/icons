@@ -1,7 +1,7 @@
 icons
 =====
 
-Icons for Streetmix. The `svg` folder contains source files in SVG.
+Icons for Streetmix segments. The `svg` folder contains source files in SVG.
 
 ## Working with icons
 
