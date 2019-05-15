@@ -1,3 +1,8 @@
+# v0.5.1
+
+- Updates dependencies
+- Removes unnecessary files from distributed package
+
 # v0.5.0
 
 - Removes all app icons:
