@@ -1,3 +1,7 @@
+# v0.5.2
+
+- Removes dist folder from repo
+
 # v0.5.1
 
 - Updates dependencies

@@ -40,9 +40,3 @@ git push origin
 ```
 
 When Streetmix is redeployed, it will retrieve the latest version of the icons from GitHub and incorporate it as a Node.js module. Icons *must* be build in the final `icons.svg` output for it to be used. Streetmix does not use the raw, source SVG files.
-
-### Credits
-
-Icons used under license:
-
-- [Forum icon](https://thenounproject.com/search/?q=forums&i=563603) by romzicon, [Creative Commons Attribution 3.0 United States](https://creativecommons.org/licenses/by/3.0/us/).
