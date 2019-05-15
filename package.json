@@ -6,6 +6,10 @@
     "type": "git",
     "url": "https://github.com/streetmix/icons.git"
   },
+  "files": [
+    "dist",
+    "svg"
+  ],
   "scripts": {
     "prepare": "gulp",
     "start": "gulp"
