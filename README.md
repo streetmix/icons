@@ -1,6 +1,8 @@
 icons
 =====
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/streetmix/icons.svg)](https://greenkeeper.io/)
+
 Icons for Streetmix segments. The `svg` folder contains source files in SVG.
 
 ## Working with icons
