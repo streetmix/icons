@@ -1,0 +1,16 @@
+{
+  "dest": "dist",
+  "log": "verbose",
+  "shape": {
+    "id": {
+      "generator": "icon-%s"
+    }
+  },
+  "mode": {
+    "symbol": {
+      "dest": ".",
+      "sprite": "icons",
+      "inline": true
+    }
+  }
+}

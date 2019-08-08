@@ -20,24 +20,23 @@ More info on SVG icons: http://css-tricks.com/svg-symbol-good-choice-icons/
 
 ## Generating the final output
 
-Install Gulp and other Node.js dependencies:
+Install dependencies:
 
 ```
 npm install
-npm install -g gulp
 ```
 
 Create `icons.svg`
 
 ```
-gulp
+npm start
 ```
 
 Send changes back upstream
 
 ```
 git add --all
-git commit --message 'I updated an icon'
+git commit --message 'feat: I updated an icon'
 git push origin
 ```
 

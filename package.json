@@ -11,12 +11,12 @@
     "svg"
   ],
   "scripts": {
-    "prepare": "gulp",
-    "start": "gulp"
+    "prepare": "make",
+    "start": "make"
   },
   "license": "BSD-3-Clause",
-  "devDependencies": {
-    "gulp": "4.0.2",
-    "gulp-svg-sprite": "1.5.0"
+  "devDependencies": {},
+  "dependencies": {
+    "svg-sprite": "1.5.0"
   }
 }
