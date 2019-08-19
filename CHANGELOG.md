@@ -1,3 +1,8 @@
+# v0.6.0
+
+- Adds temporary / construction icons
+- Update build process to use Makefile instead of gulp
+
 # v0.5.2
 
 - Removes dist folder from repo
