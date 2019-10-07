@@ -1,3 +1,7 @@
+# v0.7.0
+
+- Add magic carpet icons
+
 # v0.6.0
 
 - Adds temporary / construction icons
