@@ -14,6 +14,11 @@ SVGs are individually made as 48x48. Guidelines:
 
 All the current SVGs are exported from Affinity Designer. They have a very easy to use exporter that doesn't insert a lot of the extra meta-gunk that Illustrator does.
 
+When exporting from Affinity Designer:
+
+- Use the `SVG (for web)` preset, which flattens transforms for even cleaner output
+- Use the `Whole document` area (turning off other layers), which preserves the square viewbox
+
 More info on SVG icons: http://css-tricks.com/svg-symbol-good-choice-icons/
 
 ## Generating the final output
